@@ -13,14 +13,14 @@ struct Question: Hashable {
     let correctAnswerIndex: Int
     
     static var allQuestions = [
-        Question(questionText: "who is Dato qortua?",
+        Question(questionText: "Who among the following has designed the PHP programing language?",
                  possibleAnswers: [
                     "Steve Jobs",
-                    "Zugdideli biji",
-                    "Urteli",
-                    "kutunia"
+                    "Rasmus Lerdorf",
+                    "Guido van Rossum",
+                    "Bill Gates"
                  ],
-                 correctAnswerIndex: 2),
+                 correctAnswerIndex: 1),
         Question(questionText: "What was the first object oriented programming language?",
                  possibleAnswers: [
                     "Simula",
